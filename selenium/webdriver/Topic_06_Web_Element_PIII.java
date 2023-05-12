@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 public class Topic_06_Web_Element_PIII {
-	// check environment
+	
 	WebDriver driver;
 	Random rand;
 	String projectPath = System.getProperty("user.dir");

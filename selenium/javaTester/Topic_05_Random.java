@@ -14,7 +14,15 @@ public class Topic_05_Random {
 		System.out.println("Automation"+ rand.nextInt(999) + "@gmail.com");
 		System.out.println(rand.nextLong());
 
-		
+		System.out.println("thuqua" + getRandomNumber() + "@gmail.net");
+		System.out.println("thuqua" + getRandomNumber() + "@gmail.net");
+		System.out.println("thuqua" + getRandomNumber() + "@gmail.net");
+
+	}
+	
+	public static int getRandomNumber() {
+		Random rand = new Random();
+		return rand.nextInt(99999);
 	}
 
 }
