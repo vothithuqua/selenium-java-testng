@@ -53,7 +53,6 @@ public class Topic_11_Custom_Radio_Checkbox {
 		sleepInSecond(2);
 		
 		Assert.assertTrue(driver.findElement(radioButton).isSelected());
-		
 	}
 	
 	@Test
