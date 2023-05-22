@@ -62,7 +62,6 @@ public class Topic_10_Button_Radio_Checkbox {
 		Assert.assertEquals(loginButtonBackgroundColour.asHex().toUpperCase(), "#C92127");
 		
 	}
-
 	
 	@Test
 	public void TC_02_Default_Checkbox_Radio_Single() {
@@ -108,10 +107,8 @@ public class Topic_10_Button_Radio_Checkbox {
 		for (WebElement checkbox : allCheckboxes) {
 			if (checkbox.getAttribute("Value").equals("Bleeding Disorders")) {
 				checkbox.click();
-			}
-			
+			}	
 		}
-		
 	}
 	
 	@Test
@@ -130,8 +127,6 @@ public class Topic_10_Button_Radio_Checkbox {
 		if (!driver.findElement(By.xpath("//label[contains(text(),'2.0 Petrol, 147kW')]/preceding-sibling::input")).isSelected()) {
 			driver.findElement(By.xpath("//label[contains(text(),'2.0 Petrol, 147kW')]/preceding-sibling::input")).click();
 		}
-
-		
 	}
 	
 	@Test
@@ -176,7 +171,6 @@ public class Topic_10_Button_Radio_Checkbox {
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-
 	}
 
 	@AfterClass
